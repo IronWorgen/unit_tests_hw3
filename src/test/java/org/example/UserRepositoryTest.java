@@ -58,6 +58,7 @@ class UserRepositoryTest {
     }
 
     @Test
+    @DisplayName("test not amin logout")
     void logOutIfNotAdmin() {
         assertArrayEquals(
                 List.of(
